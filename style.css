@@ -1,0 +1,92 @@
+.bank_headding{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.log_in{
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px gray;
+    padding: 30px 60px 40px 30px;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 8px;
+    font-size: 17px;
+    display: block;
+}
+
+.button{
+    text-decoration: none;
+    background-color: green;
+    color: #fff;
+    padding: .7rem 1rem;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.button:hover{
+    background-color: rgb(31, 128, 31); 
+}
+
+.show{
+    display: none;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5rem;
+}
+
+.dispaly_wappper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    column-gap: 70px;
+    margin-bottom: 50px;
+}
+
+.display_item{
+    background-color: #4A3DB5;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 1rem;
+}
+
+.display_item h4{
+    font-size: 25px;
+    margin: 10px;
+    color: #fff;
+}
+
+.display_item h2{
+    margin: 10px;
+    font-size: 40px;
+    color: #fff;
+}
+
+.display_item:nth-child(2){
+    background-color: #C76F49;
+}
+
+.display_item:nth-child(3){
+    background-color: #C76E00;
+}
+
+.input_area{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    column-gap: 70px;
+}
+
+
+.input_item{
+    box-shadow: 5px 5px 10px 4px gray;
+    padding: 30px 60px 40px 30px;
+    border-radius: 1rem;
+    margin-bottom: 30px;
+}
